@@ -1,0 +1,41 @@
+
+.bridesmaids__group {
+  @include padding(2.5em);
+  background-color: $primary-bg-color;
+}
+.groomsmen__group {
+  @include padding(2.5em);
+  background-color: white;
+}
+
+.groomsmen__text {
+  @include text-pad-lr(0.5em);
+}
+.bridesmaid__text {
+  @include text-pad-lr(0.5em);
+}
+
+  .bridesmaids__hr {
+    @include hr-rule;
+  }
+
+  .groomsmen__hr {
+    @include hr-rule;
+  }
+
+  .bridesmaids-detail__div {
+    @include padding(2em);
+  }
+
+  .bridesmaids__header {
+    @include padding-top-bottom(1em, 0.25em);
+  }
+
+  .groomsmen__header {
+    @include padding-top-bottom(1em, 0.25em);
+  }
+
+  .section__groomsmen {
+    background-color: #fffbfb;
+
+  }

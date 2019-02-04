@@ -1,0 +1,23 @@
+
+@mixin hr-rule {
+  border-top: $hr-color;
+  background-color: $hr-color;
+  border-radius: 15%;
+  height: 0.15em;
+  width: 35%;
+}
+
+@mixin padding($num) {
+  padding-top: $num;
+  padding-bottom: $num;
+}
+
+@mixin padding-top-bottom($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin text-pad-lr($left-right) {
+  padding-left: $left-right;
+  padding-right: $left-right;
+}

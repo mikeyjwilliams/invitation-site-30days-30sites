@@ -1,0 +1,19 @@
+
+.details__div {
+  @include padding(2.5em);
+  background-color: $primary-bg-color;
+}
+
+.details__hr {
+  @include hr-rule;
+}
+.accommodations__section {
+  @include padding-top-bottom(1em, 2em);
+}
+.transportation__section {
+  @include padding-top-bottom(1em, 2em);
+}
+
+.registry__div {
+  @include padding(2.5em);
+}

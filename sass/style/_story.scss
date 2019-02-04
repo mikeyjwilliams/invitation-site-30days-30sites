@@ -1,0 +1,25 @@
+
+.no-padding { // overriding bootstraps 15px left and right for the 
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.story__div {
+    @include padding(2em);
+    background-color: $primary-bg-color;
+
+}
+.story__hr { // horizontal rule line.
+  @include hr-rule;
+}
+.story__img {
+    background-color: $primary-bg-color;
+    width: 50%;
+    
+}
+.card {
+    @include inline-flex-align; // align items
+    background-color: $primary-bg-color;
+}
+
+

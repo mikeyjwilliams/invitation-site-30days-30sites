@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Event Invitation</title>
+</head>
+<body>
+   <header class="nav__header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropDown" aria-controls="navbarDropDown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarDropDown">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#announcement">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-story">Our Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#day">The Wedding</a>
+            </li>
+            <li class="nav-item">
+                <a href="#wedding-party" class="nav-link">Wedding Party</a>
+            </li>
+            <li class="nav-item">
+                <a href="#details" class="nav-link">Wedding Details</a>
+            </li>
+              <li class="nav-item">
+                  <a href="#rsvp" class="nav-link">Registration</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+   </header> 
+   <main>
+     <!--<div class="container-fluid">-->
+      <div class="row">
+        <div class="col-sm-12 no-padding">
+            <section class="announcement__section engagement" id="announcement">
+                <div class="announcement__info info text-center">
+                  <h2>- Mrs. and Mr. -</h2>
+                  <h1 class="text-uppercase">we're engaged</h1>
+                  <h6><time datetime="2023-08-02 19:00">2023-08-02 19:00</time>| St. Peter's Chapel</h6>
+                </div>
+            </section>
+        </div>
+      </div>
+    <!--</div>-->
+    <div class="story__div story" id="our-story">
+      <div class="container">
+          <h2 class="story__header story text-center">Our Story</h2>
+          <hr class="story__hr story">
+          <div class="card-group">
+            <article class="story__article story card" id="bride-story">
+              <img src="./imgs/bride-to-be.jpg" alt="Bride to be, close up of her beautiful face and blue eyes." class="story__img bride story card-img-top">
+              <div class="card-body text-center">
+                <h4 class="bride story__title card-title">Bride</h4>
+                <p class="bride story_text card-text">
+                  This is a paragraph about the bride to be. Please replace
+                  when you find something more interesting about the bride to
+                  be. And want to share it for all to read! :)
+                </p>
+              </div>
+            </article>
+            <article class="story__article story card" id="groom-story">
+              <img src="./imgs/groom-to-be.jpg" alt="groom to be photo close up" class="story__img story card">
+              <div class="card-body text-center">
+                <h4 class="groom story__title card-title">Groom</h4>
+                <p class="groom story__text card-text">
+                  This is a paragraph about the groom to be. Please
+                  replace when you find something more interesting about
+                  the groom to be. And want to share it for all to read! :)
+                </p>
+              </div>
+            </article>
+          </div>
+       </div>
+    </div>
+       <div class="big-day__div day" id="day">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12 col-md-6">
+                       <article class="big-day__article day" id="big-day-article">
+                           <h2 class="big-day__header day">Big Day</h2>
+                           <hr class="big-day__hr day">
+                           <p class="text-center">When <br>
+                           <span><time datetime="2023-01-09 19:00">01. 9. 2023 19:00</time></span></p>
+                           <p class="text-center">Where</p>
+                           <p class="text-center">
+                               St. Peter's Chapel,<br>
+                               500 Terry A Fracois Blvd, San <br>
+                               Francisco, CA 94158, USA
+                           </p>
+                            <button type="button" class="btn btn-primary btn-lg big-day__button">Register Now</button>
+                       </article>
+                   </div>
+                   <div class="col-sm-12 col-md-6 img-padding" id="big-day-pic">
+                       <img src="./imgs/big-day.jpg" alt="wedding picture couple kissing" class="img-fluid rounded">
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div id="wedding-party">
+           <div class="bridesmaids__group bridesmaids__group" id="bridesmaids">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-sm-12">
+                           <h3 class="text-center">Bridesmaids</h3>
+                           <hr class="bridesmaids__hr">
+                       </div>
+                   </div>
+                   <div class="row">
+                       <section class="section__bridesmaids" id="wedding-party-brides">
+                           <div class="row">
+                               <div class="col-sm-12 col-md-4 bridesmaids-detail__div text-center">
+                                   <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid bridesmaids__pic" id="ashley-bowe"><br>
+                                   <h3 class="bridesmaids__header bridesmaid">Ashley Bowe</h3>
+                                   <p class="bridesmaid__text bridesmaid">
+                                       I'm a paragraph. Click here to add your own text and edit me.
+                                   </p>
+                               </div>
+                               <div class="col-sm-12 col-md-4 bridesmaids-detail__div text-center">
+                                   <img src="http://via.placeholder.com/200x200" alt="placeholder img block" class="img-fluid rounded bridesmaids__pic" id="verity-albin"><br>
+                                   <h3 class="bridesmaids__header bridesmaid">Verity Albin</h3>
+                                   <p class="bridesmaid__text bridesmaid">
+                                       I'm a paragraph. Click here to add your own text and edit me.
+                                   </p>
+                               </div>
+                               <div class="col-sm-12 col-md-4 bridesmaids-detail__div text-center">
+                                   <img src="http://via.placeholder.com/200x200" alt="placeholder img block" class="img-fluid rounded bridesmaid__pic" id="tara-robins">
+                                   <h3 class="bridesmaids__header bridesmaid">Tara Robins</h3>
+                                   <p class="bridesmaid__text bridesmaid">
+                                       I'm a paragraph. Click here to add your own text and edit me.
+                                   </p>
+                               </div>
+                           </div>
+                           <div class="row">
+                               <div class="col-sm-12 col-md-4 bridesmaids-detail__div text-center">
+                                   <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid bridesmaids__pic" id="rachel-harper"><br>
+                                   <h3 class="bridesmaids__header bridesmaid">Rachel Harper</h3>
+                                   <p class="bridesmaid__text bridesmaid">
+                                       I'm a paragraph. Click here to add your own text and edit me.
+                                   </p>
+                               </div>
+                               <div class="col-sm-12 col-md-4 bridesmaids-detail__div text-center">
+                                   <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid bridesmaids__pic" id="chrissy-aston"><br>
+                                   <h3 class="bridesmaids__header bridesmaid">Chrissy Aston</h3>
+                                   <p class="bridesmaid__text bridesmaid">
+                                       I'm a paragraph. Click here to add your own text and edit me.
+                                   </p>
+                               </div>
+                               <div class="col-sm-12 col-md-4 bridesmaids-detail__div text-center">
+                                   <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid bridesmaids__pic" id="ada-colvin"><br>
+                                   <h3 class="bridesmaids__header bridesmaid">Ada Colvin</h3>
+                                   <p class="bridesmaid__text bridesmaid">
+                                       I'm a paragraph. Click here to add your own text and edit me.
+                                   </p>
+                               </div>
+                           </div>
+                       </section>
+                   </div>
+               </div>
+           </div>
+           <div class="bridesmaids__group groomsmen__group" id="grooms">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-sm-12 text-center">
+                           <h3>Groomsmen</h3>
+                           <hr class="groomsmen__hr">
+                       </div>
+                       <div class="container">
+                           <div class="row">
+                               <section class="section__groomsmen" id="wedding-party-grooms">
+                                   <div class="row">
+                                       <div class="col-sm-12 col-md-4 groomsmen-detail__div text-center">
+                                           <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid groomsmen__pic" id="rich-bolton"><br>
+                                           <h3 class="groomsmen__header wedding-party">Rich Bolton</h3>
+                                           <p class="groomsmen__text wedding-party">
+                                               I'm a paragraph. Click here to add your own text and edit me.
+                                           </p>
+                                       </div>
+                                       <div class="col-sm-12 col-md-4 groomsmen-detail__div text-center">
+                                           <img src="http://via.placeholder.com/200x200" alt="placeholder img block" class="img-fluid rounded groomsmen__pic" id="aj-samuels"><br>
+                                           <h3 class="groomsmen__header wedding-party">Aj Samuels</h3>
+                                           <p class="groomsmen__text wedding-party">
+                                               I'm a paragraph. Click here to add your own text and edit me.
+                                           </p>
+                                       </div>
+                                       <div class="col-sm-12 col-md-4 groomsmen-detail__div text-center">
+                                           <img src="http://via.placeholder.com/200x200" alt="placeholder img block" class="img-fluid rounded groomsmen__pic" id="james-huston">
+                                           <h3 class="groomsmen__header wedding-party">James Huston</h3>
+                                           <p class="groomsmen__text wedding-party">
+                                               I'm a paragraph. Click here to add your own text and edit me.
+                                           </p>
+                                       </div>
+                                   </div>
+                                   <div class="row">
+                                       <div class="col-sm-12 col-md-4 groomsmen-detail__div text-center">
+                                           <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid groomsmen__pic" id="josh-cranston"><br>
+                                           <h3 class="groomsmen__header wedding-party">Josh Cranston</h3>
+                                           <p class="groomsmen__text wedding-party">
+                                               I'm a paragraph. Click here to add your own text and edit me.
+                                           </p>
+                                       </div>
+                                       <div class="col-sm-12 col-md-4 groomsmen-detail__div text-center">
+                                           <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid groomsmen__pic" id="michael-tanner"><br>
+                                           <h3 class="groomsmen__header wedding-party">Michael Tanner</h3>
+                                           <p class="groomsmen__text wedding-party">
+                                               I'm a paragraph. Click here to add your own text and edit me.
+                                           </p>
+                                       </div>
+                                       <div class="col-sm-12 col-md-4 groomsmen-detail__div text-center">
+                                           <img src="http://via.placeholder.com/200X200" alt="placeholder img block" class="img-fluid groomsmen__pic" id="oli-seals"><br>
+                                           <h3 class="groomsmen__header wedding-party">Oli Seals</h3>
+                                           <p class="groomsmen__text wedding-party">
+                                               I'm a paragraph. Click here to add your own text and edit me.
+                                           </p>
+                                       </div>
+                                   </div>
+                               </section>
+                           </div>
+                       </div>
+
+                    </div>
+                </div>
+           </div>
+       </div>
+       <div class="details__div" id="details">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12">
+                       <h2 class="text-center">Getting There</h2>
+                       <hr class="details__hr">
+                   </div>
+               </div>
+               <div class="row">
+                   <section class="col-sm-12 col-md-6 accommodations__section">
+                       <h3 class="text-center text-capitalize">accommodations</h3>
+                       <p class="text-center">
+                           I'm a paragraph. Click here to add your own text and edit me.
+                           It’s easy. Just click “Edit Text” or double click me to add your
+                           own content and make changes to the font. Feel free to drag and
+                           drop me anywhere you like on your page. I’m a great place for you
+                           to tell a story
+                       </p>
+                   </section>
+                   <section class="col-sm-12 col-md-6 transportation__section">
+                       <h3 class="text-center text-capitalize">transportation</h3>
+                       <p class="text-center">
+                           I'm a paragraph. Click here to add your own text and edit me.
+                           It’s easy. Just click “Edit Text” or double click me to add
+                           your own content and make changes to the font. Feel free to drag
+                           and drop me anywhere you like on your page. I’m a great place for
+                           you to tell a story
+                       </p>
+                   </section>
+               </div>
+               <div class="row">
+                   <div class="col-sm-12 text-center">
+                       <button class="btn btn-primary">View Map</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="registry__div" id="registry">
+           <div class="container">
+               <div class="row">
+                   <section class="col-sm-12 registry__section" id="registration">
+                       <h3 class="text-center">Registry</h3>
+                       <p class="text-center">
+                           I'm a paragraph. Click here to add your own text and edit me.
+                           I’m a great place for you to tell a story and let your users
+                           know a little more about you
+                       </p>
+                   </section>
+               </div>
+           </div>
+       </div>
+       <div class="rsvp__div" id="rsvp">
+           <div class="container">
+               <div class="row">
+                   <div class="col-sm-12 col-lg-6">
+                       <h3 class="text-center">yes, I'll be there</h3>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-sm-12 col-lg-6">
+                       <form action="#">
+                           <div class="col-sm-12 col-md-6">
+                               <div class="form-group">
+                                   <label for="first-name">*First Name</label><br>
+                                   <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+                               </div>
+                           </div>
+                           <div class="col-sm-12 col-md-6">
+                               <div class="form-group">
+                                   <label for="last-name">*Last Name</label><br>
+                                   <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+                               </div>
+                           </div>
+                           <div class="col-sm-12">
+                               <div class="form-group">
+                                   <label for="email">*Email</label><br>
+                                   <input type="email" class="form-control" id="email" placeholder="Email" required>
+                               </div>
+                           </div>
+                           <div class="col-sm-12">
+                               <div class="form-group">
+                                   <label for="meal-request">Meal Request</label><br>
+                                   <textarea name="" id="meal-request" rows="3" class="form-control"></textarea>
+                               </div>
+                           </div>
+                           <div class="col-sm-12">
+                              <div class="form-group form-check">
+                                  <input type="checkbox" class="form-check-input" id="plus-one">
+                                  <label for="plus-one">I'm bringing a plus one</label>
+                              </div>
+                           </div>
+                           <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+
+   </main>
+   <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script src="node_modules/popper.js/dist/popper.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+   <script src="js/main.min.js"></script>
+</body>
+</html>

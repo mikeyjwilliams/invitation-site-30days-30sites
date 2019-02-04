@@ -1,0 +1,18 @@
+
+.big-day__div {
+  @include padding(2em);
+  background-color: $primary-bg-color;
+}
+
+.big-day__hr {
+  @include hr-rule;
+}
+
+.big-day__article {
+  @include flex-center-content;
+  flex-direction: column;
+}
+
+.img-padding {
+  @include padding(2.5em);
+}

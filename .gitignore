@@ -1,3 +1,11 @@
 .sass-cache
 node_modules
-!docs/node_modules
+!docs/node_modules/dist/css/bootstrap.css
+!docs/node_modules/dist/css/bootstrap.css.map
+!docs/node_modules/dist/js/bootstrap.js
+!docs/node_modules/dist/js/bootstrap.js.map
+!docs/node_modules/jquery/dist/jquery.min.js
+!docs/node_modules/jquery/dist/jquery.min.js.map
+!docs/node_modules/popper.js/dist/popper.min.js
+!docs/node_modules/popper.js/dist/popper.min.js.map
+docs/node_modules/dist/
